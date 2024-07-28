@@ -1,66 +1,22 @@
-.section-nav{
+.profile{
+    background-color: #f8f9fa;
     margin-top: 20px;
-    color: #33393f;
+    margin-right: 0;
 }
-.nav-logo{
-    width: 150px;
+.div-right{
+    width: 300px;
 }
-a{
-    text-decoration: none;
-    color: #33393f;
-}
-.search-div{
-    border: 1px solid #f3f4f4;
-    margin-top: 5px;
-    border-radius: 28px;
-    height: 30px;
-    padding: 0 16px;
-}
-.search-input{
-    border: none;
-    color: #ababab;
-    max-width: 100%;
-    font-size: 12px;
-    position: absolute;
-    background-color: transparent;
-}
-.search-button{
-    border:6px solid transparent;
-    margin-right: 75%;
-    border-radius:  15px 0px 0px 15px ;
-}
-.search-button-img{
-    width: 20px;
-}
-.compare{
-    border: 1px solid #33393f;
-    border-radius: 20px;
+.information{
+    background-color: #f4f5f6;
     height: 40px;
-    padding: 3px 8px;
+    width: 100%;
 }
-.compare-img{
-    width: 28px;
-    height: 28px;
-    margin-top: 2px;
-    margin-right: 6px;
+.information-username{
+    margin-right: 0%;
 }
-.compare-p{
-    font-size: 17px;
-    font-weight: 500;
+.information-phonenumber{
+    margin-left: 0%;
 }
-.shopimg{
-    width: 50px;
-    border: 1px solid #33393f;
-    border-radius: 20px;
-}
-.shop{
-    width: 35px;
-    margin-right: 60px;
-}
-.sign{
-    border: 2px solid #33393f;
-    border-radius: 20px;
-    height: 40px;
-    padding: 5px;
-    margin-right: 60px;
+.div-bar{
+    background-color: #fff;
 }
