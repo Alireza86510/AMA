@@ -1,7 +1,5 @@
-
-
 /* Start First Image Section */
-.first-image-box{
+.first-image-box {
     background-color: red;
     margin-top: 10px;
     padding: 150px;
@@ -10,6 +8,78 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 /* End First Image Section */
 
+/* Start Offer Section */
+.main-offer-box {
+    direction: rtl;
+}
 
+.container {
+    padding: 20px 0;
+}
+
+.item1 {
+    width: 22%;
+    padding: 20px 15px;
+    justify-content: space-between;
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding-bottom: 0;
+    padding-top: 6px;
+}
+
+.div-img {
+    width: 95%;
+    height: 80%;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+
+.item1-title {
+    margin-bottom: 10%;
+    font-size: 16px;
+    color: #0075ff;
+    font-weight: bold;
+}
+
+.main-info-box {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-bottom: 0;
+}
+
+.item1-info {
+    font-size: 13px;
+    font-weight: bold;
+    color: gray;
+    /* margin-bottom: 20%; */
+}
+
+.size-arrow {
+    width: 30%;
+    padding: 6% 6%;
+    border: 1px solid gray;
+    border-radius: 50%;
+    background-color: white;
+    /* margin-top: 5px; */
+    margin-top: 30px;
+}
+
+.arrow-color {
+    color: black;
+}
+
+.main-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-img1 {
+    padding-bottom: 0;
+}
+
+/* End Offer Section */
