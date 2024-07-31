@@ -1,10 +1,11 @@
 .profile-section{
     background-color: #f9fafb;
+    
 }
 .div-right{
     margin-top: 30px;
     width: 300px;
-    height: 10px;
+    height:
     font-size: 18px;
     background-color: #f9fafb;
 }
@@ -13,24 +14,42 @@
     padding-right: 20px;
     padding-top: 10px;
 }
-.information-username{
-    
+.a-icons{
+    width: 20px;
 }
 .information-phone{
     margin-right: 120px;
 }
 .div-bar{
     background-color: #fff;
+    height: 300px;
+    margin-top: 0px;
+}
+.a-bar{
+    height: 50px;
+}
+.bar-link{
+    margin-right: 20px;
+    display: block;
+    font-size: 22px;
+    text-decoration: none;
+    color: #252727;
+    margin-top: ;
+}
+.bar-link:focus{
+    background-color: #213f9a16;    ;
+    color: #21409a;
 }
 .div-left{
     text-align: center;
-    width: 1250px;
+    width: 1100px;
     margin: 30px;
 }
 .div-center{
     padding: 10px 290px;
     background-color: #fff;
     border-radius: 10px;
+    
 }
 .left-a{
     background-color: #3e8bff;
@@ -39,7 +58,9 @@
     padding: 8px;
     border-radius: 15px;
     position: relative;
+    margin-top: 20px;
     margin-bottom: 50px;
+    margin-right: 33%;
 }
 .inf-a{
     color: #fff;
@@ -67,6 +88,9 @@
     border-radius: 5px;
     margin-left: 10px;
 }
+.button-right:hover{
+    background-color: #3e8bff;
+}
 .button-left{
     width: 150px;
     height: 40px;
@@ -76,7 +100,7 @@
     border-radius: 5px;
 }
 .button-left:hover{
-    background-color: #dbeaff22;
+    background-color: #004ebc22;
     color: #004fc5ad;
 }
 .all-input{
