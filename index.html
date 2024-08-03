@@ -8,11 +8,59 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom Css -->
     <link rel="stylesheet" href="Assets/Css/style.css">
-    <title>Document</title>
+    <title>Ama Project</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 </head>
 
 <body>
+    <!-- Start Nav Section -->
+    <header class="header_section">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg custom_nav-container ">
+                <a class="navbar-brand" href="index.html">
+                    <span>
+                        Adak
+                    </span>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class=""> </span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav  ">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">خانه <span class="sr-only"></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html"> درباره</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="service.html">سرویس</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">تماس با ما</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">سبد خرید</a>
+                        </li>
+                    </ul>
+                    <div class="quote_btn-container">
+                        <a href="login register.html" class="quote_btn sign-in-nav">
+                            ثبت نام
+                        </a>
+                        <a href="login register.html" class="quote_btn">
+                            ورود
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- End Nav  -->
+
     <!-- Start First Image Section -->
     <div class="first-image-box">
         <img src="" alt="">
@@ -20,77 +68,904 @@
     <!-- End First Image Section -->
 
     <!-- Start Offers Section -->
+    <div class="info-section-laptop container">
+        <p><svg width="15" height="17" viewBox="0 0 15 17" fill="none" xmlns="http://www.w3.org/2000/svg"
+                style="margin-left: 5px;">
+                <path
+                    d="M1.5 11.0981C-0.5 9.94338 -0.5 7.05662 1.5 5.90192L10.5 0.705772C12.5 -0.44893 15 0.994447 15 3.30385L15 13.6962C15 16.0056 12.5 17.4489 10.5 16.2942L1.5 11.0981Z"
+                    fill="#0091D0"></path>
+            </svg>محصولات پر فروش ما </p>
+    </div>
+
     <div class="main-offer-box">
         <div class="container main-items">
-            <div class="item1">
-                <div class="main-info-box">
-                    <div class="item1-title"> لپ تاپ </div>
-                    <div class="item1-info"> شروع قیمت از...</div>
-                    <div class="size-arrow"> <a href="">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
-                                stroke="currentColor" className="size-6">
-                                <path strokeLinecap="round" strokeLinejoin="round"
-                                    d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" class="arrow-color" />
-                            </svg>
-                        </a></div>
-                </div>
+            <div class="card">
+                <div class="card-content">
+                    <div class="card-front">
+                        <p class="sub-title">لپتاپ گینیگ</p>
+                        <h1 class="title">مکبوک</h1>
+                        <p class="sub-title">2023</p>
+                    </div>
 
-                <div> <img src="Assets/Image/port9544_8814_1697894981968_undefined_ODeDUJTQIz.png" alt=""
-                        class="div-img"></div>
+                    <div class="card-back">
+                        <div class="back-title">لپتاپ همه کاره</div>
+                        <div class="movie-description">
+                            <span>توضیحات: </span>لپ تاپ جدید شرکت ماکروسافت
+                        </div>
+                        <div class="genre">
+                            <span>قیمت: </span>20,000,000
+                        </div>
+                        <div class="release-date">
+                            <span>تاریح عرضه: </span>16 اردیبهشت
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=hebWYacbdvc" class="btn">خرید</a>
+                    </div>
+                </div>
             </div>
 
-            <div class="item1">
-                <div class="main-info-box">
-                    <div class="item1-title"> آل این وان</div>
-                    <div class="item1-info"> شروع قیمت از...</div>
-                    <div class="size-arrow"> <a href="">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
-                                stroke="currentColor" className="size-6">
-                                <path strokeLinecap="round" strokeLinejoin="round"
-                                    d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" class="arrow-color" />
-                            </svg>
-                        </a></div>
-                </div>
+            <div class="card">
+                <div class="card-content">
+                    <div class="card-front card-front-2">
+                        <p class="sub-title">لپتاپ گینیگ</p>
+                        <h1 class="title">مکبوک</h1>
+                        <p class="sub-title">2023</p>
+                    </div>
 
-                <div> <img src="Assets/Image/port9544_2273_1697895938598_undefined_5vslX1LJey.png" alt=""
-                        class="div-img"></div>
-            </div>
-            <div class="item1">
-                <div class="main-info-box">
-                    <div class="item1-title"> لپ تاپ </div>
-                    <div class="item1-info"> شروع قیمت از...</div>
-                    <div class="size-arrow"> <a href="">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
-                                stroke="currentColor" className="size-6">
-                                <path strokeLinecap="round" strokeLinejoin="round"
-                                    d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" class="arrow-color" />
-                            </svg>
-                        </a></div>
+                    <div class="card-back">
+                        <div class="back-title">لپتاپ همه کاره</div>
+                        <div class="movie-description">
+                            <span>توضیحات: </span>لپ تاپ جدید شرکت ماکروسافت
+                        </div>
+                        <div class="genre">
+                            <span>قیمت: </span>20,000,000
+                        </div>
+                        <div class="release-date">
+                            <span>تاریح عرضه: </span>16 اردیبهشت
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=hebWYacbdvc" class="btn">خرید</a>
+                    </div>
                 </div>
-
-                <div class="div-img1"> <img src="Assets/Image/port9544_8123_1697896040665_undefined_aLPXnMhF1D.png"
-                        alt="" class="div-img"></div>
-            </div>
-            <div class="item1">
-                <div class="main-info-box">
-                    <div class="item1-title"> تبلت</div>
-                    <div class="item1-info"> شروع قیمت از...</div>
-                    <div class="size-arrow"> <a href="">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
-                                stroke="currentColor" className="size-6">
-                                <path strokeLinecap="round" strokeLinejoin="round"
-                                    d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" class="arrow-color" />
-                            </svg>
-                        </a></div>
-                </div>
-
-                <div> <img src="Assets/Image/port9544_9151_1697895365214_undefined_bQtNfQAwrx.png" alt=""
-                        class="div-img"></div>
             </div>
 
+
+
+
+            <div class="card">
+                <div class="card-content">
+                    <div class="card-front card-front-3">
+                        <p class="sub-title">لپتاپ گینیگ</p>
+                        <h1 class="title">مکبوک</h1>
+                        <p class="sub-title">2023</p>
+                    </div>
+
+                    <div class="card-back">
+                        <div class="back-title">لپتاپ همه کاره</div>
+                        <div class="movie-description">
+                            <span>توضیحات: </span>لپ تاپ جدید شرکت ماکروسافت
+                        </div>
+                        <div class="genre">
+                            <span>قیمت: </span>20,000,000
+                        </div>
+                        <div class="release-date">
+                            <span>تاریح عرضه: </span>16 اردیبهشت
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=hebWYacbdvc" class="btn">خرید</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!-- End Offers Section -->
+
+    <!-- Start First Image Section -->
+    <div class="first-image-box first-image-box-2">
+        <img src="" alt="">
+    </div>
+    <!-- End First Image Section -->
+
+    <!-- Start Support Section -->
+    <div class="info-section-laptop container">
+        <p><svg width="15" height="17" viewBox="0 0 15 17" fill="none" xmlns="http://www.w3.org/2000/svg"
+                style="margin-left: 5px;">
+                <path
+                    d="M1.5 11.0981C-0.5 9.94338 -0.5 7.05662 1.5 5.90192L10.5 0.705772C12.5 -0.44893 15 0.994447 15 3.30385L15 13.6962C15 16.0056 12.5 17.4489 10.5 16.2942L1.5 11.0981Z"
+                    fill="#0091D0"></path>
+            </svg>ساپورت و خدمات ما</p>
+    </div>
+
+    <div class="cards-container">
+        <div class="owl-carousel owl-carousel1 owl-theme">
+            <div>
+                <div class="card text-center"><img class="card-img-top"
+                        src="Assets/Image/port9544_8123_1697896040665_undefined_aLPXnMhF1D.png" alt="">
+                    <div class="card-body">
+                        <h5>موبایل<br />
+                            <span> فروش انواع موبایل </span>
+                        </h5>
+                        <p class="card-text">“بهترین موبایل های بازار به بهترین قیمت و کیفیت” </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card text-center"><img class="card-img-top"
+                        src="Assets/Image//Apple-13.3-MacBook-Air-2020-min.jpg" alt="">
+                    <div class="card-body">
+                        <h5>لپ تاپ<br />
+                            <span> فروش انواع لپتاپ </span>
+                        </h5>
+                        <p class="card-text">“بهترین لپتاپ های گیمینگ و غیر گیمینگ” </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card text-center"><img class="card-img-top"
+                        src="Assets/Image/port9544_2273_1697895938598_undefined_5vslX1LJey.png" alt="">
+                    <div class="card-body">
+                        <h5>کامپیوتر<br />
+                            <span> فروش انواع کامپیوتر </span>
+                        </h5>
+                        <p class="card-text">“فروش انواع کامپیوتر های مینی با بهترین قیمت” </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card text-center"><img class="card-img-top" src="Assets/Image/s10.jpg" alt="">
+                    <div class="card-body">
+                        <h5>لوازم جانبی<br />
+                            <span> فروش لوازم جانبی </span>
+                        </h5>
+                        <p class="card-text">“فروش و تعمیر انواع لوازم جانبی کامپیوتر و موبایل” </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="Assets/Js/main.js"></script>
+    <!-- End Support Section -->
+
+
+    <!-- Start Brand Section -->
+    <div class="info-section-laptop container">
+        <p><svg width="15" height="17" viewBox="0 0 15 17" fill="none" xmlns="http://www.w3.org/2000/svg"
+                style="margin-left: 5px;">
+                <path
+                    d="M1.5 11.0981C-0.5 9.94338 -0.5 7.05662 1.5 5.90192L10.5 0.705772C12.5 -0.44893 15 0.994447 15 3.30385L15 13.6962C15 16.0056 12.5 17.4489 10.5 16.2942L1.5 11.0981Z"
+                    fill="#0091D0"></path>
+            </svg>برند های پر فروش</p>
+    </div>
+
+    <div class="main-brand-box">
+        <div class="box-items d-flex">
+            <div class="brand-img-box"> <img src="Assets/Image/brand.png" alt="" class="img-brand"> <p class="brand-title">اچ پی- HP</p></div>
+            <div> <div class="brand-hover"><img src="Assets/Image/brand2.png" alt="" class="img-brand" class="img-brand"></div></div>
+            <div> <img src="Assets/Image/brand3.png" alt="" class="img-brand" class="img-brand"><p class="brand-title">اچ پی- HP</p></div>
+            <div> <img src="Assets/Image/brand4.png" alt="" class="img-brand" class="img-brand"><p class="brand-title">اچ پی- HP</p></div>
+            <div> <img src="Assets/Image/brand5.png" alt="" class="img-brand" class="img-brand"><p class="brand-title">اچ پی- HP</p></div>
+            <div> <img src="Assets/Image/brand6.png" alt="" class="img-brand" class="img-brand"><p class="brand-title">اچ پی- HP</p></div>
+            <div> <img src="Assets/Image/brand7.png" alt="" class="img-brand" class="img-brand"><p class="brand-title">اچ پی- HP</p></div>
+            <div> <img src="Assets/Image/brand8.png" alt="" class="img-brand" class="img-brand"><p class="brand-title">اچ پی- HP</p></div>
+        </div>
+    </div>
+    <!-- End Brand Section -->
+    
+    <!-- Start First Image Section -->
+    <div class="first-image-box">
+        <img src="" alt="">
+    </div>
+    <!-- End First Image Section -->
+
+    <!-- Start Info Section -->
+    <div class="info-section-laptop container">
+        <p><svg width="15" height="17" viewBox="0 0 15 17" fill="none" xmlns="http://www.w3.org/2000/svg"
+                style="margin-left: 5px;">
+                <path
+                    d="M1.5 11.0981C-0.5 9.94338 -0.5 7.05662 1.5 5.90192L10.5 0.705772C12.5 -0.44893 15 0.994447 15 3.30385L15 13.6962C15 16.0056 12.5 17.4489 10.5 16.2942L1.5 11.0981Z"
+                    fill="#0091D0"></path>
+            </svg>توسعه دهنده های ما</p>
+    </div>
+    <div class="client-box">
+    <div class="card-client container">
+        <div class="user-picture">
+        </div>
+        <p class="name-client"> مسعود مسعودی پور
+            <span>تیم فرانت اند
+            </span>
+        </p>
+        <div class="social-media">
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                </svg>
+                <span class="tooltip-social">تویتر</span>
+            </a>
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+                </svg>
+                <span class="tooltip-social">اینستاگرام</span>
+            </a>
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path>
+                </svg>
+                <span class="tooltip-social">فیس بوک</span>
+            </a>
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path>
+                </svg>
+                <span class="tooltip-social">لینکدن</span>
+            </a>
+        </div>
+    </div>
+    <div class="card-client container">
+        <div class="user-picture user-picture-2">
+        </div>
+        <p class="name-client"> امین زجاجی
+            <span>تیم فرانت اند
+            </span>
+        </p>
+        <div class="social-media">
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                </svg>
+                <span class="tooltip-social">تویتر</span>
+            </a>
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+                </svg>
+                <span class="tooltip-social">اینستاگرام</span>
+            </a>
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path>
+                </svg>
+                <span class="tooltip-social">فیس بوک</span>
+            </a>
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path>
+                </svg>
+                <span class="tooltip-social">لینکدن</span>
+            </a>
+        </div>
+    </div>
+    <div class="card-client container">
+        <div class="user-picture user-picture-3">
+        </div>
+        <p class="name-client"> علیرضا خسروی
+            <span>تیم بک اند
+            </span>
+        </p>
+        <div class="social-media">
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                </svg>
+                <span class="tooltip-social">تویتر</span>
+            </a>
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+                </svg>
+                <span class="tooltip-social">اینستاگرام</span>
+            </a>
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path>
+                </svg>
+                <span class="tooltip-social">فیس بوک</span>
+            </a>
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path>
+                </svg>
+                <span class="tooltip-social">لینکدن</span>
+            </a>
+        </div>
+    </div>
+    </div>
+    <!-- End Info Section -->
+
+    <!-- Start Product Section -->
+    <div class="info-section-laptop container">
+        <p><svg width="15" height="17" viewBox="0 0 15 17" fill="none" xmlns="http://www.w3.org/2000/svg"
+                style="margin-left: 5px;">
+                <path
+                    d="M1.5 11.0981C-0.5 9.94338 -0.5 7.05662 1.5 5.90192L10.5 0.705772C12.5 -0.44893 15 0.994447 15 3.30385L15 13.6962C15 16.0056 12.5 17.4489 10.5 16.2942L1.5 11.0981Z"
+                    fill="#0091D0"></path>
+            </svg>محصولات پر فروش ما </p>
+    </div>
+    <div class="container container-laptop">
+        <div class="card1">
+            <div class="container-image">
+                <svg fill="#000000" height="" width="800px" version="1.1" id="Layer_1"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 463 463"
+                    xml:space="preserve"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    class="Main-icon1">
+                    <g>
+                        <g>
+                            <g>
+                                <path
+                                    d="M455.5,348H447V99.5c0-17.369-14.131-31.5-31.5-31.5h-368C30.131,68,16,82.131,16,99.5V348H7.5
+                     c-4.142,0-7.5,3.358-7.5,7.5v16C0,384.458,10.542,395,23.5,395h416c12.958,0,23.5-10.542,23.5-23.5v-16
+                     C463,351.358,459.642,348,455.5,348z M31,99.5C31,90.402,38.402,83,47.5,83h368c9.098,0,16.5,7.402,16.5,16.5V348H31V99.5z
+                      M448,371.5c0,4.687-3.813,8.5-8.5,8.5h-416c-4.687,0-8.5-3.813-8.5-8.5V363h169.025c-0.011,0.166-0.025,0.331-0.025,0.5
+                     c0,4.142,3.358,7.5,7.5,7.5h80c4.142,0,7.5-3.358,7.5-7.5c0-0.169-0.014-0.334-0.025-0.5H448V371.5z" />
+                                <path d="M407.5,100h-352c-4.142,0-7.5,3.358-7.5,7.5v216c0,4.142,3.358,7.5,7.5,7.5h352c4.142,0,7.5-3.358,7.5-7.5v-216
+                     C415,103.358,411.642,100,407.5,100z M400,316H63V115h337V316z" />
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+            <div class="content">
+                <div class="detail">
+                    <span>مکبوک<br> مدل 2024</span>
+                    <p class="price-laptop">22,000,000</p>
+                    <button>خرید</button>
+                </div>
+                <div class="product-image">
+                    <div class="box-image">
+                        <svg fill="#000000" height="" width="1000px" version="1.1" id="Layer_1"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            viewBox="0 0 463 463" xml:space="preserve"
+                            style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                            class="Main-icon2">
+                            <g>
+                                <g>
+                                    <g>
+                                        <path
+                                            d="M455.5,348H447V99.5c0-17.369-14.131-31.5-31.5-31.5h-368C30.131,68,16,82.131,16,99.5V348H7.5
+                         c-4.142,0-7.5,3.358-7.5,7.5v16C0,384.458,10.542,395,23.5,395h416c12.958,0,23.5-10.542,23.5-23.5v-16
+                         C463,351.358,459.642,348,455.5,348z M31,99.5C31,90.402,38.402,83,47.5,83h368c9.098,0,16.5,7.402,16.5,16.5V348H31V99.5z
+                          M448,371.5c0,4.687-3.813,8.5-8.5,8.5h-416c-4.687,0-8.5-3.813-8.5-8.5V363h169.025c-0.011,0.166-0.025,0.331-0.025,0.5
+                         c0,4.142,3.358,7.5,7.5,7.5h80c4.142,0,7.5-3.358,7.5-7.5c0-0.169-0.014-0.334-0.025-0.5H448V371.5z" />
+                                        <path d="M407.5,100h-352c-4.142,0-7.5,3.358-7.5,7.5v216c0,4.142,3.358,7.5,7.5,7.5h352c4.142,0,7.5-3.358,7.5-7.5v-216
+                         C415,103.358,411.642,100,407.5,100z M400,316H63V115h337V316z" />
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card1">
+            <div class="container-image">
+                <svg fill="#000000" height="" width="800px" version="1.1" id="Layer_1"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 463 463"
+                    xml:space="preserve"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    class="Main-icon1">
+                    <g>
+                        <g>
+                            <g>
+                                <path
+                                    d="M455.5,348H447V99.5c0-17.369-14.131-31.5-31.5-31.5h-368C30.131,68,16,82.131,16,99.5V348H7.5
+                     c-4.142,0-7.5,3.358-7.5,7.5v16C0,384.458,10.542,395,23.5,395h416c12.958,0,23.5-10.542,23.5-23.5v-16
+                     C463,351.358,459.642,348,455.5,348z M31,99.5C31,90.402,38.402,83,47.5,83h368c9.098,0,16.5,7.402,16.5,16.5V348H31V99.5z
+                      M448,371.5c0,4.687-3.813,8.5-8.5,8.5h-416c-4.687,0-8.5-3.813-8.5-8.5V363h169.025c-0.011,0.166-0.025,0.331-0.025,0.5
+                     c0,4.142,3.358,7.5,7.5,7.5h80c4.142,0,7.5-3.358,7.5-7.5c0-0.169-0.014-0.334-0.025-0.5H448V371.5z" />
+                                <path d="M407.5,100h-352c-4.142,0-7.5,3.358-7.5,7.5v216c0,4.142,3.358,7.5,7.5,7.5h352c4.142,0,7.5-3.358,7.5-7.5v-216
+                     C415,103.358,411.642,100,407.5,100z M400,316H63V115h337V316z" />
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+            <div class="content">
+                <div class="detail">
+                    <span>مکبوک<br> مدل 2024</span>
+                    <p class="price-laptop">22,000,000</p>
+                    <button>خرید</button>
+                </div>
+                <div class="product-image">
+                    <div class="box-image">
+                        <svg fill="#000000" height="" width="1000px" version="1.1" id="Layer_1"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            viewBox="0 0 463 463" xml:space="preserve"
+                            style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                            class="Main-icon2">
+                            <g>
+                                <g>
+                                    <g>
+                                        <path
+                                            d="M455.5,348H447V99.5c0-17.369-14.131-31.5-31.5-31.5h-368C30.131,68,16,82.131,16,99.5V348H7.5
+                         c-4.142,0-7.5,3.358-7.5,7.5v16C0,384.458,10.542,395,23.5,395h416c12.958,0,23.5-10.542,23.5-23.5v-16
+                         C463,351.358,459.642,348,455.5,348z M31,99.5C31,90.402,38.402,83,47.5,83h368c9.098,0,16.5,7.402,16.5,16.5V348H31V99.5z
+                          M448,371.5c0,4.687-3.813,8.5-8.5,8.5h-416c-4.687,0-8.5-3.813-8.5-8.5V363h169.025c-0.011,0.166-0.025,0.331-0.025,0.5
+                         c0,4.142,3.358,7.5,7.5,7.5h80c4.142,0,7.5-3.358,7.5-7.5c0-0.169-0.014-0.334-0.025-0.5H448V371.5z" />
+                                        <path d="M407.5,100h-352c-4.142,0-7.5,3.358-7.5,7.5v216c0,4.142,3.358,7.5,7.5,7.5h352c4.142,0,7.5-3.358,7.5-7.5v-216
+                         C415,103.358,411.642,100,407.5,100z M400,316H63V115h337V316z" />
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card1">
+            <div class="container-image">
+                <svg fill="#000000" height="" width="800px" version="1.1" id="Layer_1"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 463 463"
+                    xml:space="preserve"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    class="Main-icon1">
+                    <g>
+                        <g>
+                            <g>
+                                <path
+                                    d="M455.5,348H447V99.5c0-17.369-14.131-31.5-31.5-31.5h-368C30.131,68,16,82.131,16,99.5V348H7.5
+                     c-4.142,0-7.5,3.358-7.5,7.5v16C0,384.458,10.542,395,23.5,395h416c12.958,0,23.5-10.542,23.5-23.5v-16
+                     C463,351.358,459.642,348,455.5,348z M31,99.5C31,90.402,38.402,83,47.5,83h368c9.098,0,16.5,7.402,16.5,16.5V348H31V99.5z
+                      M448,371.5c0,4.687-3.813,8.5-8.5,8.5h-416c-4.687,0-8.5-3.813-8.5-8.5V363h169.025c-0.011,0.166-0.025,0.331-0.025,0.5
+                     c0,4.142,3.358,7.5,7.5,7.5h80c4.142,0,7.5-3.358,7.5-7.5c0-0.169-0.014-0.334-0.025-0.5H448V371.5z" />
+                                <path d="M407.5,100h-352c-4.142,0-7.5,3.358-7.5,7.5v216c0,4.142,3.358,7.5,7.5,7.5h352c4.142,0,7.5-3.358,7.5-7.5v-216
+                     C415,103.358,411.642,100,407.5,100z M400,316H63V115h337V316z" />
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+            <div class="content">
+                <div class="detail">
+                    <span>مکبوک<br> مدل 2024</span>
+                    <p class="price-laptop">22,000,000</p>
+                    <button>خرید</button>
+                </div>
+                <div class="product-image">
+                    <div class="box-image">
+                        <svg fill="#000000" height="" width="1000px" version="1.1" id="Layer_1"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            viewBox="0 0 463 463" xml:space="preserve"
+                            style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                            class="Main-icon2">
+                            <g>
+                                <g>
+                                    <g>
+                                        <path
+                                            d="M455.5,348H447V99.5c0-17.369-14.131-31.5-31.5-31.5h-368C30.131,68,16,82.131,16,99.5V348H7.5
+                         c-4.142,0-7.5,3.358-7.5,7.5v16C0,384.458,10.542,395,23.5,395h416c12.958,0,23.5-10.542,23.5-23.5v-16
+                         C463,351.358,459.642,348,455.5,348z M31,99.5C31,90.402,38.402,83,47.5,83h368c9.098,0,16.5,7.402,16.5,16.5V348H31V99.5z
+                          M448,371.5c0,4.687-3.813,8.5-8.5,8.5h-416c-4.687,0-8.5-3.813-8.5-8.5V363h169.025c-0.011,0.166-0.025,0.331-0.025,0.5
+                         c0,4.142,3.358,7.5,7.5,7.5h80c4.142,0,7.5-3.358,7.5-7.5c0-0.169-0.014-0.334-0.025-0.5H448V371.5z" />
+                                        <path d="M407.5,100h-352c-4.142,0-7.5,3.358-7.5,7.5v216c0,4.142,3.358,7.5,7.5,7.5h352c4.142,0,7.5-3.358,7.5-7.5v-216
+                         C415,103.358,411.642,100,407.5,100z M400,316H63V115h337V316z" />
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card1">
+            <div class="container-image">
+                <svg fill="#000000" height="" width="800px" version="1.1" id="Layer_1"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 463 463"
+                    xml:space="preserve"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    class="Main-icon1">
+                    <g>
+                        <g>
+                            <g>
+                                <path
+                                    d="M455.5,348H447V99.5c0-17.369-14.131-31.5-31.5-31.5h-368C30.131,68,16,82.131,16,99.5V348H7.5
+                     c-4.142,0-7.5,3.358-7.5,7.5v16C0,384.458,10.542,395,23.5,395h416c12.958,0,23.5-10.542,23.5-23.5v-16
+                     C463,351.358,459.642,348,455.5,348z M31,99.5C31,90.402,38.402,83,47.5,83h368c9.098,0,16.5,7.402,16.5,16.5V348H31V99.5z
+                      M448,371.5c0,4.687-3.813,8.5-8.5,8.5h-416c-4.687,0-8.5-3.813-8.5-8.5V363h169.025c-0.011,0.166-0.025,0.331-0.025,0.5
+                     c0,4.142,3.358,7.5,7.5,7.5h80c4.142,0,7.5-3.358,7.5-7.5c0-0.169-0.014-0.334-0.025-0.5H448V371.5z" />
+                                <path d="M407.5,100h-352c-4.142,0-7.5,3.358-7.5,7.5v216c0,4.142,3.358,7.5,7.5,7.5h352c4.142,0,7.5-3.358,7.5-7.5v-216
+                     C415,103.358,411.642,100,407.5,100z M400,316H63V115h337V316z" />
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+            <div class="content">
+                <div class="detail">
+                    <span>مکبوک<br> مدل 2024</span>
+                    <p class="price-laptop">22,000,000</p>
+                    <button>خرید</button>
+                </div>
+                <div class="product-image">
+                    <div class="box-image">
+                        <svg fill="#000000" height="" width="1000px" version="1.1" id="Layer_1"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            viewBox="0 0 463 463" xml:space="preserve"
+                            style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                            class="Main-icon2">
+                            <g>
+                                <g>
+                                    <g>
+                                        <path
+                                            d="M455.5,348H447V99.5c0-17.369-14.131-31.5-31.5-31.5h-368C30.131,68,16,82.131,16,99.5V348H7.5
+                         c-4.142,0-7.5,3.358-7.5,7.5v16C0,384.458,10.542,395,23.5,395h416c12.958,0,23.5-10.542,23.5-23.5v-16
+                         C463,351.358,459.642,348,455.5,348z M31,99.5C31,90.402,38.402,83,47.5,83h368c9.098,0,16.5,7.402,16.5,16.5V348H31V99.5z
+                          M448,371.5c0,4.687-3.813,8.5-8.5,8.5h-416c-4.687,0-8.5-3.813-8.5-8.5V363h169.025c-0.011,0.166-0.025,0.331-0.025,0.5
+                         c0,4.142,3.358,7.5,7.5,7.5h80c4.142,0,7.5-3.358,7.5-7.5c0-0.169-0.014-0.334-0.025-0.5H448V371.5z" />
+                                        <path d="M407.5,100h-352c-4.142,0-7.5,3.358-7.5,7.5v216c0,4.142,3.358,7.5,7.5,7.5h352c4.142,0,7.5-3.358,7.5-7.5v-216
+                         C415,103.358,411.642,100,407.5,100z M400,316H63V115h337V316z" />
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container container-laptop">
+        <div class="card1">
+            <div class="container-image">
+                <svg fill="#000000" height="" width="800px" version="1.1" id="Layer_1"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 463 463"
+                    xml:space="preserve"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    class="Main-icon1">
+                    <g>
+                        <g>
+                            <g>
+                                <path
+                                    d="M455.5,348H447V99.5c0-17.369-14.131-31.5-31.5-31.5h-368C30.131,68,16,82.131,16,99.5V348H7.5
+                         c-4.142,0-7.5,3.358-7.5,7.5v16C0,384.458,10.542,395,23.5,395h416c12.958,0,23.5-10.542,23.5-23.5v-16
+                         C463,351.358,459.642,348,455.5,348z M31,99.5C31,90.402,38.402,83,47.5,83h368c9.098,0,16.5,7.402,16.5,16.5V348H31V99.5z
+                          M448,371.5c0,4.687-3.813,8.5-8.5,8.5h-416c-4.687,0-8.5-3.813-8.5-8.5V363h169.025c-0.011,0.166-0.025,0.331-0.025,0.5
+                         c0,4.142,3.358,7.5,7.5,7.5h80c4.142,0,7.5-3.358,7.5-7.5c0-0.169-0.014-0.334-0.025-0.5H448V371.5z" />
+                                <path d="M407.5,100h-352c-4.142,0-7.5,3.358-7.5,7.5v216c0,4.142,3.358,7.5,7.5,7.5h352c4.142,0,7.5-3.358,7.5-7.5v-216
+                         C415,103.358,411.642,100,407.5,100z M400,316H63V115h337V316z" />
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+            <div class="content">
+                <div class="detail">
+                    <span>مکبوک<br> مدل 2024</span>
+                    <p class="price-laptop">22,000,000</p>
+                    <button>خرید</button>
+                </div>
+                <div class="product-image">
+                    <div class="box-image">
+                        <svg fill="#000000" height="" width="1000px" version="1.1" id="Layer_1"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            viewBox="0 0 463 463" xml:space="preserve"
+                            style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                            class="Main-icon2">
+                            <g>
+                                <g>
+                                    <g>
+                                        <path
+                                            d="M455.5,348H447V99.5c0-17.369-14.131-31.5-31.5-31.5h-368C30.131,68,16,82.131,16,99.5V348H7.5
+                             c-4.142,0-7.5,3.358-7.5,7.5v16C0,384.458,10.542,395,23.5,395h416c12.958,0,23.5-10.542,23.5-23.5v-16
+                             C463,351.358,459.642,348,455.5,348z M31,99.5C31,90.402,38.402,83,47.5,83h368c9.098,0,16.5,7.402,16.5,16.5V348H31V99.5z
+                              M448,371.5c0,4.687-3.813,8.5-8.5,8.5h-416c-4.687,0-8.5-3.813-8.5-8.5V363h169.025c-0.011,0.166-0.025,0.331-0.025,0.5
+                             c0,4.142,3.358,7.5,7.5,7.5h80c4.142,0,7.5-3.358,7.5-7.5c0-0.169-0.014-0.334-0.025-0.5H448V371.5z" />
+                                        <path d="M407.5,100h-352c-4.142,0-7.5,3.358-7.5,7.5v216c0,4.142,3.358,7.5,7.5,7.5h352c4.142,0,7.5-3.358,7.5-7.5v-216
+                             C415,103.358,411.642,100,407.5,100z M400,316H63V115h337V316z" />
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card1">
+            <div class="container-image">
+                <svg fill="#000000" height="" width="800px" version="1.1" id="Layer_1"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 463 463"
+                    xml:space="preserve"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    class="Main-icon1">
+                    <g>
+                        <g>
+                            <g>
+                                <path
+                                    d="M455.5,348H447V99.5c0-17.369-14.131-31.5-31.5-31.5h-368C30.131,68,16,82.131,16,99.5V348H7.5
+                         c-4.142,0-7.5,3.358-7.5,7.5v16C0,384.458,10.542,395,23.5,395h416c12.958,0,23.5-10.542,23.5-23.5v-16
+                         C463,351.358,459.642,348,455.5,348z M31,99.5C31,90.402,38.402,83,47.5,83h368c9.098,0,16.5,7.402,16.5,16.5V348H31V99.5z
+                          M448,371.5c0,4.687-3.813,8.5-8.5,8.5h-416c-4.687,0-8.5-3.813-8.5-8.5V363h169.025c-0.011,0.166-0.025,0.331-0.025,0.5
+                         c0,4.142,3.358,7.5,7.5,7.5h80c4.142,0,7.5-3.358,7.5-7.5c0-0.169-0.014-0.334-0.025-0.5H448V371.5z" />
+                                <path d="M407.5,100h-352c-4.142,0-7.5,3.358-7.5,7.5v216c0,4.142,3.358,7.5,7.5,7.5h352c4.142,0,7.5-3.358,7.5-7.5v-216
+                         C415,103.358,411.642,100,407.5,100z M400,316H63V115h337V316z" />
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+            <div class="content">
+                <div class="detail">
+                    <span>مکبوک<br> مدل 2024</span>
+                    <p class="price-laptop">22,000,000</p>
+                    <button>خرید</button>
+                </div>
+                <div class="product-image">
+                    <div class="box-image">
+                        <svg fill="#000000" height="" width="1000px" version="1.1" id="Layer_1"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            viewBox="0 0 463 463" xml:space="preserve"
+                            style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                            class="Main-icon2">
+                            <g>
+                                <g>
+                                    <g>
+                                        <path
+                                            d="M455.5,348H447V99.5c0-17.369-14.131-31.5-31.5-31.5h-368C30.131,68,16,82.131,16,99.5V348H7.5
+                             c-4.142,0-7.5,3.358-7.5,7.5v16C0,384.458,10.542,395,23.5,395h416c12.958,0,23.5-10.542,23.5-23.5v-16
+                             C463,351.358,459.642,348,455.5,348z M31,99.5C31,90.402,38.402,83,47.5,83h368c9.098,0,16.5,7.402,16.5,16.5V348H31V99.5z
+                              M448,371.5c0,4.687-3.813,8.5-8.5,8.5h-416c-4.687,0-8.5-3.813-8.5-8.5V363h169.025c-0.011,0.166-0.025,0.331-0.025,0.5
+                             c0,4.142,3.358,7.5,7.5,7.5h80c4.142,0,7.5-3.358,7.5-7.5c0-0.169-0.014-0.334-0.025-0.5H448V371.5z" />
+                                        <path d="M407.5,100h-352c-4.142,0-7.5,3.358-7.5,7.5v216c0,4.142,3.358,7.5,7.5,7.5h352c4.142,0,7.5-3.358,7.5-7.5v-216
+                             C415,103.358,411.642,100,407.5,100z M400,316H63V115h337V316z" />
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card1">
+            <div class="container-image">
+                <svg fill="#000000" height="" width="800px" version="1.1" id="Layer_1"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 463 463"
+                    xml:space="preserve"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    class="Main-icon1">
+                    <g>
+                        <g>
+                            <g>
+                                <path
+                                    d="M455.5,348H447V99.5c0-17.369-14.131-31.5-31.5-31.5h-368C30.131,68,16,82.131,16,99.5V348H7.5
+                         c-4.142,0-7.5,3.358-7.5,7.5v16C0,384.458,10.542,395,23.5,395h416c12.958,0,23.5-10.542,23.5-23.5v-16
+                         C463,351.358,459.642,348,455.5,348z M31,99.5C31,90.402,38.402,83,47.5,83h368c9.098,0,16.5,7.402,16.5,16.5V348H31V99.5z
+                          M448,371.5c0,4.687-3.813,8.5-8.5,8.5h-416c-4.687,0-8.5-3.813-8.5-8.5V363h169.025c-0.011,0.166-0.025,0.331-0.025,0.5
+                         c0,4.142,3.358,7.5,7.5,7.5h80c4.142,0,7.5-3.358,7.5-7.5c0-0.169-0.014-0.334-0.025-0.5H448V371.5z" />
+                                <path d="M407.5,100h-352c-4.142,0-7.5,3.358-7.5,7.5v216c0,4.142,3.358,7.5,7.5,7.5h352c4.142,0,7.5-3.358,7.5-7.5v-216
+                         C415,103.358,411.642,100,407.5,100z M400,316H63V115h337V316z" />
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+            <div class="content">
+                <div class="detail">
+                    <span>مکبوک<br> مدل 2024</span>
+                    <p class="price-laptop">22,000,000</p>
+                    <button>خرید</button>
+                </div>
+                <div class="product-image">
+                    <div class="box-image">
+                        <svg fill="#000000" height="" width="1000px" version="1.1" id="Layer_1"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            viewBox="0 0 463 463" xml:space="preserve"
+                            style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                            class="Main-icon2">
+                            <g>
+                                <g>
+                                    <g>
+                                        <path
+                                            d="M455.5,348H447V99.5c0-17.369-14.131-31.5-31.5-31.5h-368C30.131,68,16,82.131,16,99.5V348H7.5
+                             c-4.142,0-7.5,3.358-7.5,7.5v16C0,384.458,10.542,395,23.5,395h416c12.958,0,23.5-10.542,23.5-23.5v-16
+                             C463,351.358,459.642,348,455.5,348z M31,99.5C31,90.402,38.402,83,47.5,83h368c9.098,0,16.5,7.402,16.5,16.5V348H31V99.5z
+                              M448,371.5c0,4.687-3.813,8.5-8.5,8.5h-416c-4.687,0-8.5-3.813-8.5-8.5V363h169.025c-0.011,0.166-0.025,0.331-0.025,0.5
+                             c0,4.142,3.358,7.5,7.5,7.5h80c4.142,0,7.5-3.358,7.5-7.5c0-0.169-0.014-0.334-0.025-0.5H448V371.5z" />
+                                        <path d="M407.5,100h-352c-4.142,0-7.5,3.358-7.5,7.5v216c0,4.142,3.358,7.5,7.5,7.5h352c4.142,0,7.5-3.358,7.5-7.5v-216
+                             C415,103.358,411.642,100,407.5,100z M400,316H63V115h337V316z" />
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card1">
+            <div class="container-image">
+                <svg fill="#000000" height="" width="800px" version="1.1" id="Layer_1"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 463 463"
+                    xml:space="preserve"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    class="Main-icon1">
+                    <g>
+                        <g>
+                            <g>
+                                <path
+                                    d="M455.5,348H447V99.5c0-17.369-14.131-31.5-31.5-31.5h-368C30.131,68,16,82.131,16,99.5V348H7.5
+                         c-4.142,0-7.5,3.358-7.5,7.5v16C0,384.458,10.542,395,23.5,395h416c12.958,0,23.5-10.542,23.5-23.5v-16
+                         C463,351.358,459.642,348,455.5,348z M31,99.5C31,90.402,38.402,83,47.5,83h368c9.098,0,16.5,7.402,16.5,16.5V348H31V99.5z
+                          M448,371.5c0,4.687-3.813,8.5-8.5,8.5h-416c-4.687,0-8.5-3.813-8.5-8.5V363h169.025c-0.011,0.166-0.025,0.331-0.025,0.5
+                         c0,4.142,3.358,7.5,7.5,7.5h80c4.142,0,7.5-3.358,7.5-7.5c0-0.169-0.014-0.334-0.025-0.5H448V371.5z" />
+                                <path d="M407.5,100h-352c-4.142,0-7.5,3.358-7.5,7.5v216c0,4.142,3.358,7.5,7.5,7.5h352c4.142,0,7.5-3.358,7.5-7.5v-216
+                         C415,103.358,411.642,100,407.5,100z M400,316H63V115h337V316z" />
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+            <div class="content">
+                <div class="detail">
+                    <span>مکبوک<br> مدل 2024</span>
+                    <p class="price-laptop">22,000,000</p>
+                    <button>خرید</button>
+                </div>
+                <div class="product-image">
+                    <div class="box-image">
+                        <svg fill="#000000" height="" width="1000px" version="1.1" id="Layer_1"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            viewBox="0 0 463 463" xml:space="preserve"
+                            style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                            class="Main-icon2">
+                            <g>
+                                <g>
+                                    <g>
+                                        <path
+                                            d="M455.5,348H447V99.5c0-17.369-14.131-31.5-31.5-31.5h-368C30.131,68,16,82.131,16,99.5V348H7.5
+                             c-4.142,0-7.5,3.358-7.5,7.5v16C0,384.458,10.542,395,23.5,395h416c12.958,0,23.5-10.542,23.5-23.5v-16
+                             C463,351.358,459.642,348,455.5,348z M31,99.5C31,90.402,38.402,83,47.5,83h368c9.098,0,16.5,7.402,16.5,16.5V348H31V99.5z
+                              M448,371.5c0,4.687-3.813,8.5-8.5,8.5h-416c-4.687,0-8.5-3.813-8.5-8.5V363h169.025c-0.011,0.166-0.025,0.331-0.025,0.5
+                             c0,4.142,3.358,7.5,7.5,7.5h80c4.142,0,7.5-3.358,7.5-7.5c0-0.169-0.014-0.334-0.025-0.5H448V371.5z" />
+                                        <path d="M407.5,100h-352c-4.142,0-7.5,3.358-7.5,7.5v216c0,4.142,3.358,7.5,7.5,7.5h352c4.142,0,7.5-3.358,7.5-7.5v-216
+                             C415,103.358,411.642,100,407.5,100z M400,316H63V115h337V316z" />
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- End Product Section -->
+
+
+    <!-- Start Cards Section -->
+    <div class="info-section-laptop container">
+        <p><svg width="15" height="17" viewBox="0 0 15 17" fill="none" xmlns="http://www.w3.org/2000/svg"
+                style="margin-left: 5px;">
+                <path
+                    d="M1.5 11.0981C-0.5 9.94338 -0.5 7.05662 1.5 5.90192L10.5 0.705772C12.5 -0.44893 15 0.994447 15 3.30385L15 13.6962C15 16.0056 12.5 17.4489 10.5 16.2942L1.5 11.0981Z"
+                    fill="#0091D0"></path>
+            </svg>شرکت های پشتیبان</p>
+    </div>
+    <div class="cards container">
+        <div class="card red">
+        </div>
+        <div class="card blue">
+        </div>
+        <div class="card green">
+        </div>
+    </div>
+    <!-- End Card Section -->
+
+    <!-- Styart Footer Section -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <!-- End Footer Section -->
+
+
+
+    <!-- Start Footer -->
+    <div class="footer_container footer-color">
+        <section class="info_section ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 ">
+                        <div class="info_detail">
+                            <h4>
+                                درباره
+                            </h4>
+                            <p>
+                                معتبر ترین و پر فروش ترین شرکت خرید و فروش و تعمیرات هرگونه لپتاپ با سابقه کاری بالا و
+                                پشتیبانی به شدت قوی و 24 ساعته با کسب معتبر ترین نشان اعتماد و مشتریان
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-2 mx-auto">
+                        <div class="info_link_box">
+                            <h4>
+                                صفحات
+                            </h4>
+                            <div class="info_links">
+                                <a class="" href="index.html">
+                                    خانه
+                                </a>
+                                <a class="" href="about.html">
+                                    درباره
+                                </a>
+                                <a class="" href="service.html">
+                                    سرویس ها
+                                </a>
+                                <a class="" href="contact.html">
+                                    تماس با ما
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 ">
+                        <h4>
+                            دنبال کردن
+                        </h4>
+                        <form action="#">
+                            <input type="text" placeholder="ایمیل را وارد کنید" />
+                            <button type="submit">
+                                دنبال کردن
+                            </button>
+                        </form>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-0 ml-auto">
+                        <div class="info_contact">
+                            <h4>
+                                آدرس
+                            </h4>
+                            <div class="contact_link_box">
+                                <a href="">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    <span>
+                                        مکان
+                                    </span>
+                                </a>
+                                <a href="">
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                    <span>
+                                        تماس 09932064467
+                                    </span>
+                                </a>
+                                <a href="">
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    <span>
+                                        AMA@gmail.com ایمیل
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="info_social">
+                            <a href="">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end info section -->
+
+        <!-- footer section -->
+        <footer class="footer_section">
+            <div class="container">
+                <p>
+                    &copy; <span id="displayYear"></span> طراحی شده توسط
+                    <a href="https://html.design/">مسعود مسعودی پور , علیرضا خسروی , امین زجاجی</a>
+                </p>
+            </div>
+        </footer>
+        <!-- footer section -->
+    </div>
+    <!-- End Footer -->
+
+
+
 </body>
 
 </html>
