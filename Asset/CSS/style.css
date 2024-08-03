@@ -1,0 +1,22 @@
+.profile{
+    background-color: #f8f9fa;
+    margin-top: 20px;
+    margin-right: 0;
+}
+.div-right{
+    width: 300px;
+}
+.information{
+    background-color: #f4f5f6;
+    height: 40px;
+    width: 100%;
+}
+.information-username{
+    margin-right: 0%;
+}
+.information-phonenumber{
+    margin-left: 0%;
+}
+.div-bar{
+    background-color: #fff;
+}

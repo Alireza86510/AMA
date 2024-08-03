@@ -1,0 +1,66 @@
+* {
+  margin: 0px;
+}
+.information-div {
+  margin-top: 10%;
+  margin-right: 9%;
+  width: 50%;
+  height: 400px;
+  padding: 30px;
+}
+.product-name {
+  text-align: center;
+}
+.information-paragrof {
+  margin-top: 5%;
+  direction: rtl;
+  font-size: 20px;
+  font-family: B Kamran;
+}
+.product-pic-div {
+  margin-top: 2%;
+  margin-right: 9%;
+  width: 50%;
+  height: 400px;
+  padding: 30px;
+  background-color: #0075ff;
+  box-shadow: -15px -15px 30px #000000, 15px 15px 30px #ffffff;
+  box-shadow: 15px -15px 30px #9f9f9f, -15px 15px 30px #ffffff;
+  box-shadow: 15px 15px 30px #9f9f9f, -15px -15px 30px #ffffff;
+}
+.order{
+    border: 1px solid #000000;
+    width: 20%;
+    height: 100px;
+    margin-right: 9%;
+    padding: 30px;
+    margin-top: 5px;
+}
+.div{
+    margin: 4%;
+}
+.guar{
+    margin-left: 5%;
+}
+.div-button{
+    margin-top: 2.5%;
+    margin-right: 7%;
+}
+.button{
+    color: #ffffff;
+    background-color: #0075ff;
+    border: none;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: -15px -15px 30px #000000, 15px 15px 30px #ffffff;
+    box-shadow: 15px -15px 30px #9f9f9f, -15px 15px 30px #ffffff;
+    box-shadow: 15px 15px 30px #9f9f9f, -15px -15px 30px #ffffff;    
+}
+.button:hover{
+    background-color: #0077ff88;
+}
+.mar{
+
+}

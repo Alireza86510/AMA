@@ -1,0 +1,127 @@
+.profile-section{
+    background-color: #f9fafb;
+    
+}
+.div-right{
+    margin-top: 30px;
+    width: 300px;
+    height:
+    font-size: 18px;
+    background-color: #f9fafb;
+}
+.information{    
+    background-color: #f4f5f6;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.a-icons{
+    width: 20px;
+}
+.information-phone{
+    margin-right: 120px;
+}
+.div-bar{
+    background-color: #fff;
+    height: 300px;
+    margin-top: 0px;
+}
+.a-bar{
+    height: 50px;
+}
+.bar-link{
+    margin-right: 20px;
+    display: block;
+    font-size: 22px;
+    text-decoration: none;
+    color: #252727;
+    margin-top: ;
+}
+.bar-link:focus{
+    background-color: #213f9a16;    ;
+    color: #21409a;
+}
+.div-left{
+    text-align: center;
+    width: 1100px;
+    margin: 30px;
+}
+.div-center{
+    padding: 10px 290px;
+    background-color: #fff;
+    border-radius: 10px;
+    
+}
+.left-a{
+    background-color: #3e8bff;
+    width: 200px;
+    height: 50px;
+    padding: 8px;
+    border-radius: 15px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-right: 33%;
+}
+.inf-a{
+    color: #fff;
+    text-decoration: none;
+}
+.div-input{
+    border: 1px solid #afafaf;
+    margin: 0px;
+    height: 60px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+.a-style{
+    width: 950px;
+    background-color: #3e8bff;
+    text-decoration: none;
+    color: #fff;
+}
+.button-right{
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    background-color: #004fc5;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.button-right:hover{
+    background-color: #3e8bff;
+}
+.button-left{
+    width: 150px;
+    height: 40px;
+    color: #3e8bff;
+    background-color: #fff;
+    /* border:1px solid #3e8bff; */
+    border-radius: 5px;
+}
+.button-left:hover{
+    background-color: #004ebc22;
+    color: #004fc5ad;
+}
+.all-input{
+    border: 1px solid  rgb(138, 138, 138);
+    border-radius: 5px;
+    margin-bottom: 50px;
+    padding: 0PX;
+}
+.input{
+    margin: 0px;
+    /* border: 1px solid #a3a3a3; */
+    padding: 0;
+}
+.inpot{
+    height: 20px;
+    width: 200px;
+    border: none;
+    margin-top: 5px;
+    color: #3e8bff;
+    font-size: 10px;
+}
+.buttons{
+    margin-bottom: 20px;
+}
